@@ -11,6 +11,7 @@ let outArray = array.map(track => {
 let eventi_player = []
 let eventi_pagina = []
 let eventi_cta = []
+let eventi_altro_tipo = []
 let eventi_media = []
 
 for (const elem of outArray) {
@@ -23,7 +24,9 @@ for (const elem of outArray) {
     } else if(elem.hasOwnProperty('ct')){
         eventi_cta.push(elem)
     } else {
-        console.log("CHE SUCCEDE?", elem);
+        eventi_altro_tipo.push(elem)
+        console.log("Something going wrong with insert of this element: ", elem);
+        console.log("See 'Eventi Altro Tipo' page for uncatalogued events ");
     }
 }
 
@@ -37,7 +40,8 @@ require("./excel_printer")("WT", {
     eventi_player,
     eventi_pagina,
     eventi_media,
-    eventi_cta
+    eventi_cta,
+    eventi_altro_tipo
 }, true)
 
 
