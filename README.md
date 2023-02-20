@@ -16,5 +16,8 @@ In console, lanciare il batch con node index.js
 ####EXCEL OUTPUT 
 L'excel verrà creato all'interno della cartella "export", per considerare il lavoro finito però andrà aggiunto una colonna "description" in posizione A:1
 per procedere con l'inserimento dello useCase nel quale si è scatenato quel track. 
+Ricordo inoltre che il file si svilippa su tre sheet e che andranno modificati tutti e tre. 
+
+Nella cartella export è presente un file d'esempio.
 
 
