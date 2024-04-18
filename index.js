@@ -1,6 +1,5 @@
 const qs = require("qs")
 const data = require("./arrayData.js")
-
 const array = data.arrayData
 
 

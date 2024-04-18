@@ -1,3 +1,35 @@
+# WTExcel 2.0 - Validator
+    idEventi -> identificano un tipo di evento player e il contenuto che viene riprodotto, in particolare può essere utilizzato anche per identificare la riproduzione di adv
+    
+    Parametri base utili per comprendere e studiare il comportamento dell'app e dell'utente sul player 
+    Per ogni parametro esisterà una regex che ne identifica e ne attesa la validità, quindi ci si aspetta un metodo con in ingresso un valore X su cui effettuare il check
+    e restituirà un valore true|false 
+
+            ns_st_ev -> regex 1
+            ns_st_po
+            ns_st_ct  
+            ns_st_ad
+            ns_st_ui
+            ns_st_cl 
+            ns_st_st
+            c6
+            c4
+            ns_st_tpr 
+            ns_st_pr -> regex N
+
+    
+    play*null
+    playvod
+    pause*null
+    pausevod
+    hb*null
+    hbvod
+    end*null
+    endvod
+    TODO verificare caso pause - seek
+
+
+
 # WTExcel
 Batch per lo spacchettamento delle chiamate WT
 
